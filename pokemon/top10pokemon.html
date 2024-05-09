@@ -1,0 +1,480 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Dua's Pokemon Website - Top 10 Pokemon
+        </title>
+        <style>
+             h1 {
+                text-align: center;
+                background-color: #bd8f8f;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                color: white;
+                border-style: dotted;
+                border-width: 10px;
+                border-color: #E4CA67;
+                text-decoration: underline dotted white
+                margin-top: 10px
+                }
+            body {
+                background-image: url('graphpaper.jpg');
+                 }
+            .favpokemon {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+                }
+            p {
+                text-align: center;
+                background-color: #ddabab;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                }
+            .navbar {
+                width: 100%;
+                height: 50px;
+                padding: 0;
+                text-align: center;
+                font-weight: 100;
+                }
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                width: 99%;
+                }
+            th, td {
+                text-align: center;
+                padding: 4px;
+                }
+            .navbar li {
+                height: auto;
+                width: 25%;
+                float: left;
+                text-align: center;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                background-color: #9e9c9c;
+                text-decoration: dotted #E4CA67;
+                }
+            .navbar a {
+                padding: 20px 0;
+                border-left: 3px dotted #E4CA67;
+                text-decoration: none;
+                color: black;
+                display: block;
+                }
+            .navbar li:hover, a:hover {
+                background-color: #bfbcbc;
+                }
+            .navbar li ul {
+                display: none;
+                height: 20px;
+                margin: 0;
+                padding: 0;
+                }
+            .navbar li:hover ul {
+                display: block;
+                position: absolute;
+                }
+            .navbar li ul li {
+                background-color: #bfbcbc;
+                }
+            .navbar li ul li a {
+                border-left: 1px solid #bfbcbc;
+                border-right: 1px solid #bfbcbc;
+                border-top: 1px solid #c9d4d8;
+                border-bottom: 1px solid #bfbcbc;
+                }
+            .navbar li ul li a:hover {
+                background-color: #E4CA67;
+                }
+            td {
+                min-width: 75px;
+                border: 2px solid black;
+                }
+            .Legendary td {
+                border-color: #E4CA67;
+                }
+            .Normal td:nth-child(odd) {
+                background-color: #c2c3a3;
+                }
+            .Normal1 td:nth-child(even) {
+                background-color: #b1b187;
+                }
+            .Fire td:nth-child(odd) {
+                background-color: #f2a56b;
+                }
+            .Fire1 td:nth-child(even) {
+                background-color: #ee8d47;
+                }
+            .Water td:nth-child(odd) {
+                background-color: #9cacd7;
+                }
+            .Water1 td:nth-child(even) {
+                background-color: #8198c3;
+                }
+            .Grass td:nth-child(odd) {
+                background-color: #a2d385;
+                }
+            .Grass1 td:nth-child(even) {
+                background-color: #8ac865;
+                }
+            .Electric td:nth-child(odd) {
+                background-color: #f9de72;
+                }
+            .Electric1 td:nth-child(even) {
+                background-color: #f8d344;
+                }
+            .Ice td:nth-child(odd) {
+                background-color: #b6e5e0;
+                }
+            .Ice1 td:nth-child(even) {
+                background-color: #a2dada;
+                }
+            .Fighting td:nth-child(odd) {
+                background-color: #d2726b;
+                }
+            .Fighting1 td:nth-child(even) {
+                background-color: #d55d5d;
+                }
+            .Poison td:nth-child(odd) {
+                background-color: #bc7cb6;
+                }
+            .Poison1 td:nth-child(even) {
+                background-color: #b168ac;
+                }
+            .Ground td:nth-child(odd) {
+                background-color: #e9d494;
+                }
+            .Ground1 td:nth-child(even) {
+                background-color: #e1c771;
+                }
+            .Flying td:nth-child(odd) {
+                background-color: #bbb0d8;
+                }
+            .Flying1 td:nth-child(even) {
+                background-color: #dfc5fe;
+                }
+            .Psychic td:nth-child(odd) {
+                background-color: #f58bac;
+                }
+            .Psychic1 td:nth-child(even) {
+                background-color: #f46994;
+                }
+            .Bug td:nth-child(odd) {
+                background-color: #c6cd77;
+                }
+            .Bug1 td:nth-child(even) {
+                background-color: #b5c252;
+                }
+            .Rock td:nth-child(odd) {
+                background-color: #cebd6e;
+                }
+            .Rock1 td:nth-child(even) {
+                background-color: #c6b359;
+                }
+            .Ghost td:nth-child(odd) {
+                background-color: #cebd6e;
+                }
+            .Ghost1 td:nth-child(even) {
+                background-color: #c6b359;
+                }
+            .Fairy td:nth-child(odd) {
+                background-color: #f7dae8;
+                }
+            .Fairy1 td:nth-child(even) {
+                background-color: #f5cee4;
+                }
+            .Dragon td:nth-child(odd) {
+                background-color: #9289be;
+                }
+            .Dragon1 td:nth-child(even) {
+                background-color: #8379b6;
+                }
+            .Steel td:nth-child(odd) {
+                background-color: #ccccdf;
+                }
+            .Steel1 td:nth-child(even) {
+                background-color: #b7b7d0;
+                }
+        </style>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+                <h1>Dua's Pokemon Website: My Top 10 Pokemon</h1>
+        <ul class = "navbar">
+            <li>
+                <a href="http://marge.stuy.edu/~dbaig50/pokemon/makePokedex.py">Home</a>
+            </li>
+            <li>
+                <a href="">Types</a>
+                <ul>
+                    <li><a href="normalpokemon.html">Normal</a></li>
+                    <li><a href="firepokemon.html">Fire</a></li>
+                    <li><a href="waterpokemon.html">Water</a></li>
+                    <li><a href="grasspokemon.html">Grass</a></li>
+                    <li><a href="electricpokemon.html">Electric</a></li>
+                    <li><a href="icepokemon.html">Ice</a></li>
+                    <li><a href="fightingpokemon.html">Fighting</a></li>
+                    <li><a href="poisonpokemon.html">Poison</a></li>
+                    <li><a href="groundpokemon.html">Ground</a></li>
+                    <li><a href="flyingpokemon.html">Flying</a></li>
+                    <li><a href="psychicpokemon.html">Psychic</a></li>
+                    <li><a href="bugpokemon.html">Bug</a></li>
+                    <li><a href="rockpokemon.html">Rock</a></li>
+                    <li><a href="ghostpokemon.html">Ghost</a></li>
+                    <li><a href="fairypokemon.html">Fairy</a></li>
+                    <li><a href="dragonpokemon.html">Dragon</a></li>
+                    <li><a href="steelPokemon.html">Steel</a></li>
+                </ul>
+            <li>
+                <a href="allpokemon.html">All Pokemon</a>
+            </li>
+            <li>
+                <a href="top10pokemon.html">Top 10</a>
+            </li>
+        </ul>
+        <table>
+            <thead>
+                <tr class = "Type 1 Type 21">
+                    <td>#</td>
+                    <td>Name</td>
+                    <td>Type 1</td>
+                    <td>Type 2</td>
+                    <td>Total</td>
+                    <td>HP</td>
+                    <td>Attack</td>
+                    <td>Defense</td>
+                    <td>Sp. Atk</td>
+                    <td>Sp. Def</td>
+                    <td>Speed</td>
+                    <td>Generation</td>
+                    <td>Legendary</td>
+                </th>
+            </thead>
+            <tbody>
+                <tr class = "Grass Poison1">
+                    <td>
+                        2
+                        <br>
+                        <img src ="./img/front/2.png">
+                        <img src ="./img/back/2.png">
+                    </td>
+                    <td>Ivysaur</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>405</td>
+                    <td>60</td>
+                    <td>62</td>
+                    <td>63</td>
+                    <td>80</td>
+                    <td>80</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        7
+                        <br>
+                        <img src ="./img/front/7.png">
+                        <img src ="./img/back/7.png">
+                    </td>
+                    <td>Squirtle</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>314</td>
+                    <td>44</td>
+                    <td>48</td>
+                    <td>65</td>
+                    <td>50</td>
+                    <td>64</td>
+                    <td>43</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        38
+                        <br>
+                        <img src ="./img/front/38.png">
+                        <img src ="./img/back/38.png">
+                    </td>
+                    <td>Ninetales</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>505</td>
+                    <td>73</td>
+                    <td>76</td>
+                    <td>75</td>
+                    <td>81</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        78
+                        <br>
+                        <img src ="./img/front/78.png">
+                        <img src ="./img/back/78.png">
+                    </td>
+                    <td>Rapidash</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>500</td>
+                    <td>65</td>
+                    <td>100</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>80</td>
+                    <td>105</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Steel1">
+                    <td>
+                        81
+                        <br>
+                        <img src ="./img/front/81.png">
+                        <img src ="./img/back/81.png">
+                    </td>
+                    <td>Magnemite</td>
+                    <td>Electric</td>
+                    <td>Steel</td>
+                    <td>325</td>
+                    <td>25</td>
+                    <td>35</td>
+                    <td>70</td>
+                    <td>95</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Steel1">
+                    <td>
+                        82
+                        <br>
+                        <img src ="./img/front/82.png">
+                        <img src ="./img/back/82.png">
+                    </td>
+                    <td>Magneton</td>
+                    <td>Electric</td>
+                    <td>Steel</td>
+                    <td>465</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>95</td>
+                    <td>120</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Ice1">
+                    <td>
+                        91
+                        <br>
+                        <img src ="./img/front/91.png">
+                        <img src ="./img/back/91.png">
+                    </td>
+                    <td>Cloyster</td>
+                    <td>Water</td>
+                    <td>Ice</td>
+                    <td>525</td>
+                    <td>50</td>
+                    <td>95</td>
+                    <td>180</td>
+                    <td>85</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        116
+                        <br>
+                        <img src ="./img/front/116.png">
+                        <img src ="./img/back/116.png">
+                    </td>
+                    <td>Horsea</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>295</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>25</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        132
+                        <br>
+                        <img src ="./img/front/132.png">
+                        <img src ="./img/back/132.png">
+                    </td>
+                    <td>Ditto</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>288</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Dragon Dragon1">
+                    <td>
+                        148
+                        <br>
+                        <img src ="./img/front/148.png">
+                        <img src ="./img/back/148.png">
+                    </td>
+                    <td>Dragonair</td>
+                    <td>Dragon</td>
+                    <td>N/A</td>
+                    <td>420</td>
+                    <td>61</td>
+                    <td>84</td>
+                    <td>65</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            DISCLAMER: I chose these pokemon mainly due to aesthetics, and not strength.
+        </p>
+        <p>
+                The reason why I chose Ivysaur is because I like the color combination. The green and pinks chosen
+            are very pleasing to the eye, and i also like the bud on its back - it's very pretty. I chose Squirtle
+            because I think its cute, and because I like the memes with it in it (the one where a squirtle is meeting
+            another group of squirtles and they're all happy to see each other). I also chose Rapidash and Ninetails since
+            I think they look elegant, and because Rapidash reminds me of a toy my sister had at one point (it was a
+            small white horse figure with a mane made of what looked to be blue fire). Magnemite is on the list since I like
+            how round it is, and I think it's cool how it kind of looks like a robot. Magneton is here for the same reasons,
+            but I like it more because there's more to love (since it's basically 3 magnemites joined together). Cloyster and
+            Ditto are here because I like their faces - Cloyster looks very smug, and I find its face satisfying to look at
+            due to how clean and sharp it is. Also, its kind of expression is my favorite to draw. Last of all we have
+            Dragonair, who is on this list because I like their color and headfins (headwings? I don't know what they're called).
+        </p> 
+    </body>
+</html>

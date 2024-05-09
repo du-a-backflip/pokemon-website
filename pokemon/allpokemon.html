@@ -1,0 +1,3284 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Dua's Pokemon Website - All Pokemon
+        </title>
+        <style>
+             h1 {
+                text-align: center;
+                background-color: #bd8f8f;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                color: white;
+                border-style: dotted;
+                border-width: 10px;
+                border-color: #E4CA67;
+                text-decoration: underline dotted white
+                margin-top: 10px
+                }
+            body {
+                background-image: url('graphpaper.jpg');
+                 }
+            .favpokemon {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+                }
+            p {
+                text-align: center;
+                background-color: #ddabab;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                }
+            .navbar {
+                width: 100%;
+                height: 50px;
+                padding: 0;
+                text-align: center;
+                font-weight: 100;
+                }
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                width: 99%;
+                }
+            th, td {
+                text-align: center;
+                padding: 4px;
+                }
+            .navbar li {
+                height: auto;
+                width: 25%;
+                float: left;
+                text-align: center;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                background-color: #9e9c9c;
+                text-decoration: dotted #E4CA67;
+                }
+            .navbar a {
+                padding: 20px 0;
+                border-left: 3px dotted #E4CA67;
+                text-decoration: none;
+                color: black;
+                display: block;
+                }
+            .navbar li:hover, a:hover {
+                background-color: #bfbcbc;
+                }
+            .navbar li ul {
+                display: none;
+                height: 20px;
+                margin: 0;
+                padding: 0;
+                }
+            .navbar li:hover ul {
+                display: block;
+                position: absolute;
+                }
+            .navbar li ul li {
+                background-color: #bfbcbc;
+                }
+            .navbar li ul li a {
+                border-left: 1px solid #bfbcbc;
+                border-right: 1px solid #bfbcbc;
+                border-top: 1px solid #c9d4d8;
+                border-bottom: 1px solid #bfbcbc;
+                }
+            .navbar li ul li a:hover {
+                background-color: #E4CA67;
+                }
+            td {
+                min-width: 75px;
+                border: 2px solid black;
+                }
+            .Legendary td {
+                border-color: #E4CA67;
+                }
+            .Normal td:nth-child(odd) {
+                background-color: #c2c3a3;
+                }
+            .Normal1 td:nth-child(even) {
+                background-color: #b1b187;
+                }
+            .Fire td:nth-child(odd) {
+                background-color: #f2a56b;
+                }
+            .Fire1 td:nth-child(even) {
+                background-color: #ee8d47;
+                }
+            .Water td:nth-child(odd) {
+                background-color: #9cacd7;
+                }
+            .Water1 td:nth-child(even) {
+                background-color: #8198c3;
+                }
+            .Grass td:nth-child(odd) {
+                background-color: #a2d385;
+                }
+            .Grass1 td:nth-child(even) {
+                background-color: #8ac865;
+                }
+            .Electric td:nth-child(odd) {
+                background-color: #f9de72;
+                }
+            .Electric1 td:nth-child(even) {
+                background-color: #f8d344;
+                }
+            .Ice td:nth-child(odd) {
+                background-color: #b6e5e0;
+                }
+            .Ice1 td:nth-child(even) {
+                background-color: #a2dada;
+                }
+            .Fighting td:nth-child(odd) {
+                background-color: #d2726b;
+                }
+            .Fighting1 td:nth-child(even) {
+                background-color: #d55d5d;
+                }
+            .Poison td:nth-child(odd) {
+                background-color: #bc7cb6;
+                }
+            .Poison1 td:nth-child(even) {
+                background-color: #b168ac;
+                }
+            .Ground td:nth-child(odd) {
+                background-color: #e9d494;
+                }
+            .Ground1 td:nth-child(even) {
+                background-color: #e1c771;
+                }
+            .Flying td:nth-child(odd) {
+                background-color: #bbb0d8;
+                }
+            .Flying1 td:nth-child(even) {
+                background-color: #dfc5fe;
+                }
+            .Psychic td:nth-child(odd) {
+                background-color: #f58bac;
+                }
+            .Psychic1 td:nth-child(even) {
+                background-color: #f46994;
+                }
+            .Bug td:nth-child(odd) {
+                background-color: #c6cd77;
+                }
+            .Bug1 td:nth-child(even) {
+                background-color: #b5c252;
+                }
+            .Rock td:nth-child(odd) {
+                background-color: #cebd6e;
+                }
+            .Rock1 td:nth-child(even) {
+                background-color: #c6b359;
+                }
+            .Ghost td:nth-child(odd) {
+                background-color: #cebd6e;
+                }
+            .Ghost1 td:nth-child(even) {
+                background-color: #c6b359;
+                }
+            .Fairy td:nth-child(odd) {
+                background-color: #f7dae8;
+                }
+            .Fairy1 td:nth-child(even) {
+                background-color: #f5cee4;
+                }
+            .Dragon td:nth-child(odd) {
+                background-color: #9289be;
+                }
+            .Dragon1 td:nth-child(even) {
+                background-color: #8379b6;
+                }
+            .Steel td:nth-child(odd) {
+                background-color: #ccccdf;
+                }
+            .Steel1 td:nth-child(even) {
+                background-color: #b7b7d0;
+                }
+        </style>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+                <h1>Dua's Pokemon Website: All Pokemon</h1>
+        <ul class = "navbar">
+            <li>
+                <a href="http://marge.stuy.edu/~dbaig50/pokemon/makePokedex.py">Home</a>
+            </li>
+            <li>
+                <a href="">Types</a>
+                <ul>
+                    <li><a href="normalpokemon.html">Normal</a></li>
+                    <li><a href="firepokemon.html">Fire</a></li>
+                    <li><a href="waterpokemon.html">Water</a></li>
+                    <li><a href="grasspokemon.html">Grass</a></li>
+                    <li><a href="electricpokemon.html">Electric</a></li>
+                    <li><a href="icepokemon.html">Ice</a></li>
+                    <li><a href="fightingpokemon.html">Fighting</a></li>
+                    <li><a href="poisonpokemon.html">Poison</a></li>
+                    <li><a href="groundpokemon.html">Ground</a></li>
+                    <li><a href="flyingpokemon.html">Flying</a></li>
+                    <li><a href="psychicpokemon.html">Psychic</a></li>
+                    <li><a href="bugpokemon.html">Bug</a></li>
+                    <li><a href="rockpokemon.html">Rock</a></li>
+                    <li><a href="ghostpokemon.html">Ghost</a></li>
+                    <li><a href="fairypokemon.html">Fairy</a></li>
+                    <li><a href="dragonpokemon.html">Dragon</a></li>
+                    <li><a href="steelPokemon.html">Steel</a></li>
+                </ul>
+            <li>
+                <a href="allpokemon.html">All Pokemon</a>
+            </li>
+            <li>
+                <a href="top10pokemon.html">Top 10</a>
+            </li>
+        </ul>
+        <table>
+            <thead>
+                <tr class = "Type 1 Type 21">
+                    <td>#</td>
+                    <td>Name</td>
+                    <td>Type 1</td>
+                    <td>Type 2</td>
+                    <td>Total</td>
+                    <td>HP</td>
+                    <td>Attack</td>
+                    <td>Defense</td>
+                    <td>Sp. Atk</td>
+                    <td>Sp. Def</td>
+                    <td>Speed</td>
+                    <td>Generation</td>
+                    <td>Legendary</td>
+                </th>
+            </thead>
+            <tbody>
+                <tr class = "Grass Poison1">
+                    <td>
+                        1
+                        <br>
+                        <img src ="./img/front/1.png">
+                        <img src ="./img/back/1.png">
+                    </td>
+                    <td>Bulbasaur</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>318</td>
+                    <td>45</td>
+                    <td>49</td>
+                    <td>49</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        2
+                        <br>
+                        <img src ="./img/front/2.png">
+                        <img src ="./img/back/2.png">
+                    </td>
+                    <td>Ivysaur</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>405</td>
+                    <td>60</td>
+                    <td>62</td>
+                    <td>63</td>
+                    <td>80</td>
+                    <td>80</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        3
+                        <br>
+                        <img src ="./img/front/3.png">
+                        <img src ="./img/back/3.png">
+                    </td>
+                    <td>Venusaur</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>525</td>
+                    <td>80</td>
+                    <td>82</td>
+                    <td>83</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>80</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        4
+                        <br>
+                        <img src ="./img/front/4.png">
+                        <img src ="./img/back/4.png">
+                    </td>
+                    <td>Charmander</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>309</td>
+                    <td>39</td>
+                    <td>52</td>
+                    <td>43</td>
+                    <td>60</td>
+                    <td>50</td>
+                    <td>65</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        5
+                        <br>
+                        <img src ="./img/front/5.png">
+                        <img src ="./img/back/5.png">
+                    </td>
+                    <td>Charmeleon</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>405</td>
+                    <td>58</td>
+                    <td>64</td>
+                    <td>58</td>
+                    <td>80</td>
+                    <td>65</td>
+                    <td>80</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Flying1">
+                    <td>
+                        6
+                        <br>
+                        <img src ="./img/front/6.png">
+                        <img src ="./img/back/6.png">
+                    </td>
+                    <td>Charizard</td>
+                    <td>Fire</td>
+                    <td>Flying</td>
+                    <td>534</td>
+                    <td>78</td>
+                    <td>84</td>
+                    <td>78</td>
+                    <td>109</td>
+                    <td>85</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        7
+                        <br>
+                        <img src ="./img/front/7.png">
+                        <img src ="./img/back/7.png">
+                    </td>
+                    <td>Squirtle</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>314</td>
+                    <td>44</td>
+                    <td>48</td>
+                    <td>65</td>
+                    <td>50</td>
+                    <td>64</td>
+                    <td>43</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        8
+                        <br>
+                        <img src ="./img/front/8.png">
+                        <img src ="./img/back/8.png">
+                    </td>
+                    <td>Wartortle</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>405</td>
+                    <td>59</td>
+                    <td>63</td>
+                    <td>80</td>
+                    <td>65</td>
+                    <td>80</td>
+                    <td>58</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        9
+                        <br>
+                        <img src ="./img/front/9.png">
+                        <img src ="./img/back/9.png">
+                    </td>
+                    <td>Blastoise</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>530</td>
+                    <td>79</td>
+                    <td>83</td>
+                    <td>100</td>
+                    <td>85</td>
+                    <td>105</td>
+                    <td>78</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Bug1">
+                    <td>
+                        10
+                        <br>
+                        <img src ="./img/front/10.png">
+                        <img src ="./img/back/10.png">
+                    </td>
+                    <td>Caterpie</td>
+                    <td>Bug</td>
+                    <td>N/A</td>
+                    <td>195</td>
+                    <td>45</td>
+                    <td>30</td>
+                    <td>35</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Bug1">
+                    <td>
+                        11
+                        <br>
+                        <img src ="./img/front/11.png">
+                        <img src ="./img/back/11.png">
+                    </td>
+                    <td>Metapod</td>
+                    <td>Bug</td>
+                    <td>N/A</td>
+                    <td>205</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>55</td>
+                    <td>25</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Flying1">
+                    <td>
+                        12
+                        <br>
+                        <img src ="./img/front/12.png">
+                        <img src ="./img/back/12.png">
+                    </td>
+                    <td>Butterfree</td>
+                    <td>Bug</td>
+                    <td>Flying</td>
+                    <td>395</td>
+                    <td>60</td>
+                    <td>45</td>
+                    <td>50</td>
+                    <td>90</td>
+                    <td>80</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Poison1">
+                    <td>
+                        13
+                        <br>
+                        <img src ="./img/front/13.png">
+                        <img src ="./img/back/13.png">
+                    </td>
+                    <td>Weedle</td>
+                    <td>Bug</td>
+                    <td>Poison</td>
+                    <td>195</td>
+                    <td>40</td>
+                    <td>35</td>
+                    <td>30</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Poison1">
+                    <td>
+                        14
+                        <br>
+                        <img src ="./img/front/14.png">
+                        <img src ="./img/back/14.png">
+                    </td>
+                    <td>Kakuna</td>
+                    <td>Bug</td>
+                    <td>Poison</td>
+                    <td>205</td>
+                    <td>45</td>
+                    <td>25</td>
+                    <td>50</td>
+                    <td>25</td>
+                    <td>25</td>
+                    <td>35</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Poison1">
+                    <td>
+                        15
+                        <br>
+                        <img src ="./img/front/15.png">
+                        <img src ="./img/back/15.png">
+                    </td>
+                    <td>Beedrill</td>
+                    <td>Bug</td>
+                    <td>Poison</td>
+                    <td>395</td>
+                    <td>65</td>
+                    <td>90</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>80</td>
+                    <td>75</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        16
+                        <br>
+                        <img src ="./img/front/16.png">
+                        <img src ="./img/back/16.png">
+                    </td>
+                    <td>Pidgey</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>251</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>40</td>
+                    <td>35</td>
+                    <td>35</td>
+                    <td>56</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        17
+                        <br>
+                        <img src ="./img/front/17.png">
+                        <img src ="./img/back/17.png">
+                    </td>
+                    <td>Pidgeotto</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>349</td>
+                    <td>63</td>
+                    <td>60</td>
+                    <td>55</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>71</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        18
+                        <br>
+                        <img src ="./img/front/18.png">
+                        <img src ="./img/back/18.png">
+                    </td>
+                    <td>Pidgeot</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>479</td>
+                    <td>83</td>
+                    <td>80</td>
+                    <td>75</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>101</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        19
+                        <br>
+                        <img src ="./img/front/19.png">
+                        <img src ="./img/back/19.png">
+                    </td>
+                    <td>Rattata</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>253</td>
+                    <td>30</td>
+                    <td>56</td>
+                    <td>35</td>
+                    <td>25</td>
+                    <td>35</td>
+                    <td>72</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        20
+                        <br>
+                        <img src ="./img/front/20.png">
+                        <img src ="./img/back/20.png">
+                    </td>
+                    <td>Raticate</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>413</td>
+                    <td>55</td>
+                    <td>81</td>
+                    <td>60</td>
+                    <td>50</td>
+                    <td>70</td>
+                    <td>97</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        21
+                        <br>
+                        <img src ="./img/front/21.png">
+                        <img src ="./img/back/21.png">
+                    </td>
+                    <td>Spearow</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>262</td>
+                    <td>40</td>
+                    <td>60</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>31</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        22
+                        <br>
+                        <img src ="./img/front/22.png">
+                        <img src ="./img/back/22.png">
+                    </td>
+                    <td>Fearow</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>442</td>
+                    <td>65</td>
+                    <td>90</td>
+                    <td>65</td>
+                    <td>61</td>
+                    <td>61</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        23
+                        <br>
+                        <img src ="./img/front/23.png">
+                        <img src ="./img/back/23.png">
+                    </td>
+                    <td>Ekans</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>288</td>
+                    <td>35</td>
+                    <td>60</td>
+                    <td>44</td>
+                    <td>40</td>
+                    <td>54</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        24
+                        <br>
+                        <img src ="./img/front/24.png">
+                        <img src ="./img/back/24.png">
+                    </td>
+                    <td>Arbok</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>438</td>
+                    <td>60</td>
+                    <td>85</td>
+                    <td>69</td>
+                    <td>65</td>
+                    <td>79</td>
+                    <td>80</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Electric1">
+                    <td>
+                        25
+                        <br>
+                        <img src ="./img/front/25.png">
+                        <img src ="./img/back/25.png">
+                    </td>
+                    <td>Pikachu</td>
+                    <td>Electric</td>
+                    <td>N/A</td>
+                    <td>320</td>
+                    <td>35</td>
+                    <td>55</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Electric1">
+                    <td>
+                        26
+                        <br>
+                        <img src ="./img/front/26.png">
+                        <img src ="./img/back/26.png">
+                    </td>
+                    <td>Raichu</td>
+                    <td>Electric</td>
+                    <td>N/A</td>
+                    <td>485</td>
+                    <td>60</td>
+                    <td>90</td>
+                    <td>55</td>
+                    <td>90</td>
+                    <td>80</td>
+                    <td>110</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Ground1">
+                    <td>
+                        27
+                        <br>
+                        <img src ="./img/front/27.png">
+                        <img src ="./img/back/27.png">
+                    </td>
+                    <td>Sandshrew</td>
+                    <td>Ground</td>
+                    <td>N/A</td>
+                    <td>300</td>
+                    <td>50</td>
+                    <td>75</td>
+                    <td>85</td>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Ground1">
+                    <td>
+                        28
+                        <br>
+                        <img src ="./img/front/28.png">
+                        <img src ="./img/back/28.png">
+                    </td>
+                    <td>Sandslash</td>
+                    <td>Ground</td>
+                    <td>N/A</td>
+                    <td>450</td>
+                    <td>75</td>
+                    <td>100</td>
+                    <td>110</td>
+                    <td>45</td>
+                    <td>55</td>
+                    <td>65</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        29
+                        <br>
+                        <img src ="./img/front/29.png">
+                        <img src ="./img/back/29.png">
+                    </td>
+                    <td>Nidoran♀</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>275</td>
+                    <td>55</td>
+                    <td>47</td>
+                    <td>52</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>41</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        30
+                        <br>
+                        <img src ="./img/front/30.png">
+                        <img src ="./img/back/30.png">
+                    </td>
+                    <td>Nidorina</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>365</td>
+                    <td>70</td>
+                    <td>62</td>
+                    <td>67</td>
+                    <td>55</td>
+                    <td>55</td>
+                    <td>56</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Ground1">
+                    <td>
+                        31
+                        <br>
+                        <img src ="./img/front/31.png">
+                        <img src ="./img/back/31.png">
+                    </td>
+                    <td>Nidoqueen</td>
+                    <td>Poison</td>
+                    <td>Ground</td>
+                    <td>505</td>
+                    <td>90</td>
+                    <td>92</td>
+                    <td>87</td>
+                    <td>75</td>
+                    <td>85</td>
+                    <td>76</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        32
+                        <br>
+                        <img src ="./img/front/32.png">
+                        <img src ="./img/back/32.png">
+                    </td>
+                    <td>Nidoran♂</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>273</td>
+                    <td>46</td>
+                    <td>57</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        33
+                        <br>
+                        <img src ="./img/front/33.png">
+                        <img src ="./img/back/33.png">
+                    </td>
+                    <td>Nidorino</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>365</td>
+                    <td>61</td>
+                    <td>72</td>
+                    <td>57</td>
+                    <td>55</td>
+                    <td>55</td>
+                    <td>65</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Ground1">
+                    <td>
+                        34
+                        <br>
+                        <img src ="./img/front/34.png">
+                        <img src ="./img/back/34.png">
+                    </td>
+                    <td>Nidoking</td>
+                    <td>Poison</td>
+                    <td>Ground</td>
+                    <td>505</td>
+                    <td>81</td>
+                    <td>102</td>
+                    <td>77</td>
+                    <td>85</td>
+                    <td>75</td>
+                    <td>85</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fairy Fairy1">
+                    <td>
+                        35
+                        <br>
+                        <img src ="./img/front/35.png">
+                        <img src ="./img/back/35.png">
+                    </td>
+                    <td>Clefairy</td>
+                    <td>Fairy</td>
+                    <td>N/A</td>
+                    <td>323</td>
+                    <td>70</td>
+                    <td>45</td>
+                    <td>48</td>
+                    <td>60</td>
+                    <td>65</td>
+                    <td>35</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fairy Fairy1">
+                    <td>
+                        36
+                        <br>
+                        <img src ="./img/front/36.png">
+                        <img src ="./img/back/36.png">
+                    </td>
+                    <td>Clefable</td>
+                    <td>Fairy</td>
+                    <td>N/A</td>
+                    <td>483</td>
+                    <td>95</td>
+                    <td>70</td>
+                    <td>73</td>
+                    <td>95</td>
+                    <td>90</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        37
+                        <br>
+                        <img src ="./img/front/37.png">
+                        <img src ="./img/back/37.png">
+                    </td>
+                    <td>Vulpix</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>299</td>
+                    <td>38</td>
+                    <td>41</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        38
+                        <br>
+                        <img src ="./img/front/38.png">
+                        <img src ="./img/back/38.png">
+                    </td>
+                    <td>Ninetales</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>505</td>
+                    <td>73</td>
+                    <td>76</td>
+                    <td>75</td>
+                    <td>81</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Fairy1">
+                    <td>
+                        39
+                        <br>
+                        <img src ="./img/front/39.png">
+                        <img src ="./img/back/39.png">
+                    </td>
+                    <td>Jigglypuff</td>
+                    <td>Normal</td>
+                    <td>Fairy</td>
+                    <td>270</td>
+                    <td>115</td>
+                    <td>45</td>
+                    <td>20</td>
+                    <td>45</td>
+                    <td>25</td>
+                    <td>20</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Fairy1">
+                    <td>
+                        40
+                        <br>
+                        <img src ="./img/front/40.png">
+                        <img src ="./img/back/40.png">
+                    </td>
+                    <td>Wigglytuff</td>
+                    <td>Normal</td>
+                    <td>Fairy</td>
+                    <td>435</td>
+                    <td>140</td>
+                    <td>70</td>
+                    <td>45</td>
+                    <td>85</td>
+                    <td>50</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Flying1">
+                    <td>
+                        41
+                        <br>
+                        <img src ="./img/front/41.png">
+                        <img src ="./img/back/41.png">
+                    </td>
+                    <td>Zubat</td>
+                    <td>Poison</td>
+                    <td>Flying</td>
+                    <td>245</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>35</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Flying1">
+                    <td>
+                        42
+                        <br>
+                        <img src ="./img/front/42.png">
+                        <img src ="./img/back/42.png">
+                    </td>
+                    <td>Golbat</td>
+                    <td>Poison</td>
+                    <td>Flying</td>
+                    <td>455</td>
+                    <td>75</td>
+                    <td>80</td>
+                    <td>70</td>
+                    <td>65</td>
+                    <td>75</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        43
+                        <br>
+                        <img src ="./img/front/43.png">
+                        <img src ="./img/back/43.png">
+                    </td>
+                    <td>Oddish</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>320</td>
+                    <td>45</td>
+                    <td>50</td>
+                    <td>55</td>
+                    <td>75</td>
+                    <td>65</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        44
+                        <br>
+                        <img src ="./img/front/44.png">
+                        <img src ="./img/back/44.png">
+                    </td>
+                    <td>Gloom</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>395</td>
+                    <td>60</td>
+                    <td>65</td>
+                    <td>70</td>
+                    <td>85</td>
+                    <td>75</td>
+                    <td>40</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        45
+                        <br>
+                        <img src ="./img/front/45.png">
+                        <img src ="./img/back/45.png">
+                    </td>
+                    <td>Vileplume</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>490</td>
+                    <td>75</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>110</td>
+                    <td>90</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Grass1">
+                    <td>
+                        46
+                        <br>
+                        <img src ="./img/front/46.png">
+                        <img src ="./img/back/46.png">
+                    </td>
+                    <td>Paras</td>
+                    <td>Bug</td>
+                    <td>Grass</td>
+                    <td>285</td>
+                    <td>35</td>
+                    <td>70</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>55</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Grass1">
+                    <td>
+                        47
+                        <br>
+                        <img src ="./img/front/47.png">
+                        <img src ="./img/back/47.png">
+                    </td>
+                    <td>Parasect</td>
+                    <td>Bug</td>
+                    <td>Grass</td>
+                    <td>405</td>
+                    <td>60</td>
+                    <td>95</td>
+                    <td>80</td>
+                    <td>60</td>
+                    <td>80</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Poison1">
+                    <td>
+                        48
+                        <br>
+                        <img src ="./img/front/48.png">
+                        <img src ="./img/back/48.png">
+                    </td>
+                    <td>Venonat</td>
+                    <td>Bug</td>
+                    <td>Poison</td>
+                    <td>305</td>
+                    <td>60</td>
+                    <td>55</td>
+                    <td>50</td>
+                    <td>40</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Poison1">
+                    <td>
+                        49
+                        <br>
+                        <img src ="./img/front/49.png">
+                        <img src ="./img/back/49.png">
+                    </td>
+                    <td>Venomoth</td>
+                    <td>Bug</td>
+                    <td>Poison</td>
+                    <td>450</td>
+                    <td>70</td>
+                    <td>65</td>
+                    <td>60</td>
+                    <td>90</td>
+                    <td>75</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Ground1">
+                    <td>
+                        50
+                        <br>
+                        <img src ="./img/front/50.png">
+                        <img src ="./img/back/50.png">
+                    </td>
+                    <td>Diglett</td>
+                    <td>Ground</td>
+                    <td>N/A</td>
+                    <td>265</td>
+                    <td>10</td>
+                    <td>55</td>
+                    <td>25</td>
+                    <td>35</td>
+                    <td>45</td>
+                    <td>95</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Ground1">
+                    <td>
+                        51
+                        <br>
+                        <img src ="./img/front/51.png">
+                        <img src ="./img/back/51.png">
+                    </td>
+                    <td>Dugtrio</td>
+                    <td>Ground</td>
+                    <td>N/A</td>
+                    <td>405</td>
+                    <td>35</td>
+                    <td>80</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>70</td>
+                    <td>120</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        52
+                        <br>
+                        <img src ="./img/front/52.png">
+                        <img src ="./img/back/52.png">
+                    </td>
+                    <td>Meowth</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>290</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        53
+                        <br>
+                        <img src ="./img/front/53.png">
+                        <img src ="./img/back/53.png">
+                    </td>
+                    <td>Persian</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>440</td>
+                    <td>65</td>
+                    <td>70</td>
+                    <td>60</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>115</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        54
+                        <br>
+                        <img src ="./img/front/54.png">
+                        <img src ="./img/back/54.png">
+                    </td>
+                    <td>Psyduck</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>320</td>
+                    <td>50</td>
+                    <td>52</td>
+                    <td>48</td>
+                    <td>65</td>
+                    <td>50</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        55
+                        <br>
+                        <img src ="./img/front/55.png">
+                        <img src ="./img/back/55.png">
+                    </td>
+                    <td>Golduck</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>500</td>
+                    <td>80</td>
+                    <td>82</td>
+                    <td>78</td>
+                    <td>95</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fighting Fighting1">
+                    <td>
+                        56
+                        <br>
+                        <img src ="./img/front/56.png">
+                        <img src ="./img/back/56.png">
+                    </td>
+                    <td>Mankey</td>
+                    <td>Fighting</td>
+                    <td>N/A</td>
+                    <td>305</td>
+                    <td>40</td>
+                    <td>80</td>
+                    <td>35</td>
+                    <td>35</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fighting Fighting1">
+                    <td>
+                        57
+                        <br>
+                        <img src ="./img/front/57.png">
+                        <img src ="./img/back/57.png">
+                    </td>
+                    <td>Primeape</td>
+                    <td>Fighting</td>
+                    <td>N/A</td>
+                    <td>455</td>
+                    <td>65</td>
+                    <td>105</td>
+                    <td>60</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>95</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        58
+                        <br>
+                        <img src ="./img/front/58.png">
+                        <img src ="./img/back/58.png">
+                    </td>
+                    <td>Growlithe</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>350</td>
+                    <td>55</td>
+                    <td>70</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        59
+                        <br>
+                        <img src ="./img/front/59.png">
+                        <img src ="./img/back/59.png">
+                    </td>
+                    <td>Arcanine</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>555</td>
+                    <td>90</td>
+                    <td>110</td>
+                    <td>80</td>
+                    <td>100</td>
+                    <td>80</td>
+                    <td>95</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        60
+                        <br>
+                        <img src ="./img/front/60.png">
+                        <img src ="./img/back/60.png">
+                    </td>
+                    <td>Poliwag</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>300</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        61
+                        <br>
+                        <img src ="./img/front/61.png">
+                        <img src ="./img/back/61.png">
+                    </td>
+                    <td>Poliwhirl</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>385</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Fighting1">
+                    <td>
+                        62
+                        <br>
+                        <img src ="./img/front/62.png">
+                        <img src ="./img/back/62.png">
+                    </td>
+                    <td>Poliwrath</td>
+                    <td>Water</td>
+                    <td>Fighting</td>
+                    <td>510</td>
+                    <td>90</td>
+                    <td>95</td>
+                    <td>95</td>
+                    <td>70</td>
+                    <td>90</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Psychic Psychic1">
+                    <td>
+                        63
+                        <br>
+                        <img src ="./img/front/63.png">
+                        <img src ="./img/back/63.png">
+                    </td>
+                    <td>Abra</td>
+                    <td>Psychic</td>
+                    <td>N/A</td>
+                    <td>310</td>
+                    <td>25</td>
+                    <td>20</td>
+                    <td>15</td>
+                    <td>105</td>
+                    <td>55</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Psychic Psychic1">
+                    <td>
+                        64
+                        <br>
+                        <img src ="./img/front/64.png">
+                        <img src ="./img/back/64.png">
+                    </td>
+                    <td>Kadabra</td>
+                    <td>Psychic</td>
+                    <td>N/A</td>
+                    <td>400</td>
+                    <td>40</td>
+                    <td>35</td>
+                    <td>30</td>
+                    <td>120</td>
+                    <td>70</td>
+                    <td>105</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Psychic Psychic1">
+                    <td>
+                        65
+                        <br>
+                        <img src ="./img/front/65.png">
+                        <img src ="./img/back/65.png">
+                    </td>
+                    <td>Alakazam</td>
+                    <td>Psychic</td>
+                    <td>N/A</td>
+                    <td>500</td>
+                    <td>55</td>
+                    <td>50</td>
+                    <td>45</td>
+                    <td>135</td>
+                    <td>95</td>
+                    <td>120</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fighting Fighting1">
+                    <td>
+                        66
+                        <br>
+                        <img src ="./img/front/66.png">
+                        <img src ="./img/back/66.png">
+                    </td>
+                    <td>Machop</td>
+                    <td>Fighting</td>
+                    <td>N/A</td>
+                    <td>305</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>50</td>
+                    <td>35</td>
+                    <td>35</td>
+                    <td>35</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fighting Fighting1">
+                    <td>
+                        67
+                        <br>
+                        <img src ="./img/front/67.png">
+                        <img src ="./img/back/67.png">
+                    </td>
+                    <td>Machoke</td>
+                    <td>Fighting</td>
+                    <td>N/A</td>
+                    <td>405</td>
+                    <td>80</td>
+                    <td>100</td>
+                    <td>70</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fighting Fighting1">
+                    <td>
+                        68
+                        <br>
+                        <img src ="./img/front/68.png">
+                        <img src ="./img/back/68.png">
+                    </td>
+                    <td>Machamp</td>
+                    <td>Fighting</td>
+                    <td>N/A</td>
+                    <td>505</td>
+                    <td>90</td>
+                    <td>130</td>
+                    <td>80</td>
+                    <td>65</td>
+                    <td>85</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        69
+                        <br>
+                        <img src ="./img/front/69.png">
+                        <img src ="./img/back/69.png">
+                    </td>
+                    <td>Bellsprout</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>300</td>
+                    <td>50</td>
+                    <td>75</td>
+                    <td>35</td>
+                    <td>70</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        70
+                        <br>
+                        <img src ="./img/front/70.png">
+                        <img src ="./img/back/70.png">
+                    </td>
+                    <td>Weepinbell</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>390</td>
+                    <td>65</td>
+                    <td>90</td>
+                    <td>50</td>
+                    <td>85</td>
+                    <td>45</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Poison1">
+                    <td>
+                        71
+                        <br>
+                        <img src ="./img/front/71.png">
+                        <img src ="./img/back/71.png">
+                    </td>
+                    <td>Victreebel</td>
+                    <td>Grass</td>
+                    <td>Poison</td>
+                    <td>490</td>
+                    <td>80</td>
+                    <td>105</td>
+                    <td>65</td>
+                    <td>100</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Poison1">
+                    <td>
+                        72
+                        <br>
+                        <img src ="./img/front/72.png">
+                        <img src ="./img/back/72.png">
+                    </td>
+                    <td>Tentacool</td>
+                    <td>Water</td>
+                    <td>Poison</td>
+                    <td>335</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>35</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Poison1">
+                    <td>
+                        73
+                        <br>
+                        <img src ="./img/front/73.png">
+                        <img src ="./img/back/73.png">
+                    </td>
+                    <td>Tentacruel</td>
+                    <td>Water</td>
+                    <td>Poison</td>
+                    <td>515</td>
+                    <td>80</td>
+                    <td>70</td>
+                    <td>65</td>
+                    <td>80</td>
+                    <td>120</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Ground1">
+                    <td>
+                        74
+                        <br>
+                        <img src ="./img/front/74.png">
+                        <img src ="./img/back/74.png">
+                    </td>
+                    <td>Geodude</td>
+                    <td>Rock</td>
+                    <td>Ground</td>
+                    <td>300</td>
+                    <td>40</td>
+                    <td>80</td>
+                    <td>100</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>20</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Ground1">
+                    <td>
+                        75
+                        <br>
+                        <img src ="./img/front/75.png">
+                        <img src ="./img/back/75.png">
+                    </td>
+                    <td>Graveler</td>
+                    <td>Rock</td>
+                    <td>Ground</td>
+                    <td>390</td>
+                    <td>55</td>
+                    <td>95</td>
+                    <td>115</td>
+                    <td>45</td>
+                    <td>45</td>
+                    <td>35</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Ground1">
+                    <td>
+                        76
+                        <br>
+                        <img src ="./img/front/76.png">
+                        <img src ="./img/back/76.png">
+                    </td>
+                    <td>Golem</td>
+                    <td>Rock</td>
+                    <td>Ground</td>
+                    <td>495</td>
+                    <td>80</td>
+                    <td>120</td>
+                    <td>130</td>
+                    <td>55</td>
+                    <td>65</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        77
+                        <br>
+                        <img src ="./img/front/77.png">
+                        <img src ="./img/back/77.png">
+                    </td>
+                    <td>Ponyta</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>410</td>
+                    <td>50</td>
+                    <td>85</td>
+                    <td>55</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        78
+                        <br>
+                        <img src ="./img/front/78.png">
+                        <img src ="./img/back/78.png">
+                    </td>
+                    <td>Rapidash</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>500</td>
+                    <td>65</td>
+                    <td>100</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>80</td>
+                    <td>105</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Psychic1">
+                    <td>
+                        79
+                        <br>
+                        <img src ="./img/front/79.png">
+                        <img src ="./img/back/79.png">
+                    </td>
+                    <td>Slowpoke</td>
+                    <td>Water</td>
+                    <td>Psychic</td>
+                    <td>315</td>
+                    <td>90</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>15</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Psychic1">
+                    <td>
+                        80
+                        <br>
+                        <img src ="./img/front/80.png">
+                        <img src ="./img/back/80.png">
+                    </td>
+                    <td>Slowbro</td>
+                    <td>Water</td>
+                    <td>Psychic</td>
+                    <td>490</td>
+                    <td>95</td>
+                    <td>75</td>
+                    <td>110</td>
+                    <td>100</td>
+                    <td>80</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Steel1">
+                    <td>
+                        81
+                        <br>
+                        <img src ="./img/front/81.png">
+                        <img src ="./img/back/81.png">
+                    </td>
+                    <td>Magnemite</td>
+                    <td>Electric</td>
+                    <td>Steel</td>
+                    <td>325</td>
+                    <td>25</td>
+                    <td>35</td>
+                    <td>70</td>
+                    <td>95</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Steel1">
+                    <td>
+                        82
+                        <br>
+                        <img src ="./img/front/82.png">
+                        <img src ="./img/back/82.png">
+                    </td>
+                    <td>Magneton</td>
+                    <td>Electric</td>
+                    <td>Steel</td>
+                    <td>465</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>95</td>
+                    <td>120</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        83
+                        <br>
+                        <img src ="./img/front/83.png">
+                        <img src ="./img/back/83.png">
+                    </td>
+                    <td>Farfetch'd</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>352</td>
+                    <td>52</td>
+                    <td>65</td>
+                    <td>55</td>
+                    <td>58</td>
+                    <td>62</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        84
+                        <br>
+                        <img src ="./img/front/84.png">
+                        <img src ="./img/back/84.png">
+                    </td>
+                    <td>Doduo</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>310</td>
+                    <td>35</td>
+                    <td>85</td>
+                    <td>45</td>
+                    <td>35</td>
+                    <td>35</td>
+                    <td>75</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Flying1">
+                    <td>
+                        85
+                        <br>
+                        <img src ="./img/front/85.png">
+                        <img src ="./img/back/85.png">
+                    </td>
+                    <td>Dodrio</td>
+                    <td>Normal</td>
+                    <td>Flying</td>
+                    <td>460</td>
+                    <td>60</td>
+                    <td>110</td>
+                    <td>70</td>
+                    <td>60</td>
+                    <td>60</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        86
+                        <br>
+                        <img src ="./img/front/86.png">
+                        <img src ="./img/back/86.png">
+                    </td>
+                    <td>Seel</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>325</td>
+                    <td>65</td>
+                    <td>45</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Ice1">
+                    <td>
+                        87
+                        <br>
+                        <img src ="./img/front/87.png">
+                        <img src ="./img/back/87.png">
+                    </td>
+                    <td>Dewgong</td>
+                    <td>Water</td>
+                    <td>Ice</td>
+                    <td>475</td>
+                    <td>90</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>70</td>
+                    <td>95</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        88
+                        <br>
+                        <img src ="./img/front/88.png">
+                        <img src ="./img/back/88.png">
+                    </td>
+                    <td>Grimer</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>325</td>
+                    <td>80</td>
+                    <td>80</td>
+                    <td>50</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        89
+                        <br>
+                        <img src ="./img/front/89.png">
+                        <img src ="./img/back/89.png">
+                    </td>
+                    <td>Muk</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>500</td>
+                    <td>105</td>
+                    <td>105</td>
+                    <td>75</td>
+                    <td>65</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        90
+                        <br>
+                        <img src ="./img/front/90.png">
+                        <img src ="./img/back/90.png">
+                    </td>
+                    <td>Shellder</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>305</td>
+                    <td>30</td>
+                    <td>65</td>
+                    <td>100</td>
+                    <td>45</td>
+                    <td>25</td>
+                    <td>40</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Ice1">
+                    <td>
+                        91
+                        <br>
+                        <img src ="./img/front/91.png">
+                        <img src ="./img/back/91.png">
+                    </td>
+                    <td>Cloyster</td>
+                    <td>Water</td>
+                    <td>Ice</td>
+                    <td>525</td>
+                    <td>50</td>
+                    <td>95</td>
+                    <td>180</td>
+                    <td>85</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ghost Poison1">
+                    <td>
+                        92
+                        <br>
+                        <img src ="./img/front/92.png">
+                        <img src ="./img/back/92.png">
+                    </td>
+                    <td>Gastly</td>
+                    <td>Ghost</td>
+                    <td>Poison</td>
+                    <td>310</td>
+                    <td>30</td>
+                    <td>35</td>
+                    <td>30</td>
+                    <td>100</td>
+                    <td>35</td>
+                    <td>80</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ghost Poison1">
+                    <td>
+                        93
+                        <br>
+                        <img src ="./img/front/93.png">
+                        <img src ="./img/back/93.png">
+                    </td>
+                    <td>Haunter</td>
+                    <td>Ghost</td>
+                    <td>Poison</td>
+                    <td>405</td>
+                    <td>45</td>
+                    <td>50</td>
+                    <td>45</td>
+                    <td>115</td>
+                    <td>55</td>
+                    <td>95</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ghost Poison1">
+                    <td>
+                        94
+                        <br>
+                        <img src ="./img/front/94.png">
+                        <img src ="./img/back/94.png">
+                    </td>
+                    <td>Gengar</td>
+                    <td>Ghost</td>
+                    <td>Poison</td>
+                    <td>500</td>
+                    <td>60</td>
+                    <td>65</td>
+                    <td>60</td>
+                    <td>130</td>
+                    <td>75</td>
+                    <td>110</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Ground1">
+                    <td>
+                        95
+                        <br>
+                        <img src ="./img/front/95.png">
+                        <img src ="./img/back/95.png">
+                    </td>
+                    <td>Onix</td>
+                    <td>Rock</td>
+                    <td>Ground</td>
+                    <td>385</td>
+                    <td>35</td>
+                    <td>45</td>
+                    <td>160</td>
+                    <td>30</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Psychic Psychic1">
+                    <td>
+                        96
+                        <br>
+                        <img src ="./img/front/96.png">
+                        <img src ="./img/back/96.png">
+                    </td>
+                    <td>Drowzee</td>
+                    <td>Psychic</td>
+                    <td>N/A</td>
+                    <td>328</td>
+                    <td>60</td>
+                    <td>48</td>
+                    <td>45</td>
+                    <td>43</td>
+                    <td>90</td>
+                    <td>42</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Psychic Psychic1">
+                    <td>
+                        97
+                        <br>
+                        <img src ="./img/front/97.png">
+                        <img src ="./img/back/97.png">
+                    </td>
+                    <td>Hypno</td>
+                    <td>Psychic</td>
+                    <td>N/A</td>
+                    <td>483</td>
+                    <td>85</td>
+                    <td>73</td>
+                    <td>70</td>
+                    <td>73</td>
+                    <td>115</td>
+                    <td>67</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        98
+                        <br>
+                        <img src ="./img/front/98.png">
+                        <img src ="./img/back/98.png">
+                    </td>
+                    <td>Krabby</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>325</td>
+                    <td>30</td>
+                    <td>105</td>
+                    <td>90</td>
+                    <td>25</td>
+                    <td>25</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        99
+                        <br>
+                        <img src ="./img/front/99.png">
+                        <img src ="./img/back/99.png">
+                    </td>
+                    <td>Kingler</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>475</td>
+                    <td>55</td>
+                    <td>130</td>
+                    <td>115</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>75</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Electric1">
+                    <td>
+                        100
+                        <br>
+                        <img src ="./img/front/100.png">
+                        <img src ="./img/back/100.png">
+                    </td>
+                    <td>Voltorb</td>
+                    <td>Electric</td>
+                    <td>N/A</td>
+                    <td>330</td>
+                    <td>40</td>
+                    <td>30</td>
+                    <td>50</td>
+                    <td>55</td>
+                    <td>55</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Electric1">
+                    <td>
+                        101
+                        <br>
+                        <img src ="./img/front/101.png">
+                        <img src ="./img/back/101.png">
+                    </td>
+                    <td>Electrode</td>
+                    <td>Electric</td>
+                    <td>N/A</td>
+                    <td>480</td>
+                    <td>60</td>
+                    <td>50</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>80</td>
+                    <td>140</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Psychic1">
+                    <td>
+                        102
+                        <br>
+                        <img src ="./img/front/102.png">
+                        <img src ="./img/back/102.png">
+                    </td>
+                    <td>Exeggcute</td>
+                    <td>Grass</td>
+                    <td>Psychic</td>
+                    <td>325</td>
+                    <td>60</td>
+                    <td>40</td>
+                    <td>80</td>
+                    <td>60</td>
+                    <td>45</td>
+                    <td>40</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Psychic1">
+                    <td>
+                        103
+                        <br>
+                        <img src ="./img/front/103.png">
+                        <img src ="./img/back/103.png">
+                    </td>
+                    <td>Exeggutor</td>
+                    <td>Grass</td>
+                    <td>Psychic</td>
+                    <td>520</td>
+                    <td>95</td>
+                    <td>95</td>
+                    <td>85</td>
+                    <td>125</td>
+                    <td>65</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Ground1">
+                    <td>
+                        104
+                        <br>
+                        <img src ="./img/front/104.png">
+                        <img src ="./img/back/104.png">
+                    </td>
+                    <td>Cubone</td>
+                    <td>Ground</td>
+                    <td>N/A</td>
+                    <td>320</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>95</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>35</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Ground1">
+                    <td>
+                        105
+                        <br>
+                        <img src ="./img/front/105.png">
+                        <img src ="./img/back/105.png">
+                    </td>
+                    <td>Marowak</td>
+                    <td>Ground</td>
+                    <td>N/A</td>
+                    <td>425</td>
+                    <td>60</td>
+                    <td>80</td>
+                    <td>110</td>
+                    <td>50</td>
+                    <td>80</td>
+                    <td>45</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fighting Fighting1">
+                    <td>
+                        106
+                        <br>
+                        <img src ="./img/front/106.png">
+                        <img src ="./img/back/106.png">
+                    </td>
+                    <td>Hitmonlee</td>
+                    <td>Fighting</td>
+                    <td>N/A</td>
+                    <td>455</td>
+                    <td>50</td>
+                    <td>120</td>
+                    <td>53</td>
+                    <td>35</td>
+                    <td>110</td>
+                    <td>87</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fighting Fighting1">
+                    <td>
+                        107
+                        <br>
+                        <img src ="./img/front/107.png">
+                        <img src ="./img/back/107.png">
+                    </td>
+                    <td>Hitmonchan</td>
+                    <td>Fighting</td>
+                    <td>N/A</td>
+                    <td>455</td>
+                    <td>50</td>
+                    <td>105</td>
+                    <td>79</td>
+                    <td>35</td>
+                    <td>110</td>
+                    <td>76</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        108
+                        <br>
+                        <img src ="./img/front/108.png">
+                        <img src ="./img/back/108.png">
+                    </td>
+                    <td>Lickitung</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>385</td>
+                    <td>90</td>
+                    <td>55</td>
+                    <td>75</td>
+                    <td>60</td>
+                    <td>75</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        109
+                        <br>
+                        <img src ="./img/front/109.png">
+                        <img src ="./img/back/109.png">
+                    </td>
+                    <td>Koffing</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>340</td>
+                    <td>40</td>
+                    <td>65</td>
+                    <td>95</td>
+                    <td>60</td>
+                    <td>45</td>
+                    <td>35</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Poison Poison1">
+                    <td>
+                        110
+                        <br>
+                        <img src ="./img/front/110.png">
+                        <img src ="./img/back/110.png">
+                    </td>
+                    <td>Weezing</td>
+                    <td>Poison</td>
+                    <td>N/A</td>
+                    <td>490</td>
+                    <td>65</td>
+                    <td>90</td>
+                    <td>120</td>
+                    <td>85</td>
+                    <td>70</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Rock1">
+                    <td>
+                        111
+                        <br>
+                        <img src ="./img/front/111.png">
+                        <img src ="./img/back/111.png">
+                    </td>
+                    <td>Rhyhorn</td>
+                    <td>Ground</td>
+                    <td>Rock</td>
+                    <td>345</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>95</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ground Rock1">
+                    <td>
+                        112
+                        <br>
+                        <img src ="./img/front/112.png">
+                        <img src ="./img/back/112.png">
+                    </td>
+                    <td>Rhydon</td>
+                    <td>Ground</td>
+                    <td>Rock</td>
+                    <td>485</td>
+                    <td>105</td>
+                    <td>130</td>
+                    <td>120</td>
+                    <td>45</td>
+                    <td>45</td>
+                    <td>40</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        113
+                        <br>
+                        <img src ="./img/front/113.png">
+                        <img src ="./img/back/113.png">
+                    </td>
+                    <td>Chansey</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>450</td>
+                    <td>250</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>35</td>
+                    <td>105</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Grass Grass1">
+                    <td>
+                        114
+                        <br>
+                        <img src ="./img/front/114.png">
+                        <img src ="./img/back/114.png">
+                    </td>
+                    <td>Tangela</td>
+                    <td>Grass</td>
+                    <td>N/A</td>
+                    <td>435</td>
+                    <td>65</td>
+                    <td>55</td>
+                    <td>115</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        115
+                        <br>
+                        <img src ="./img/front/115.png">
+                        <img src ="./img/back/115.png">
+                    </td>
+                    <td>Kangaskhan</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>490</td>
+                    <td>105</td>
+                    <td>95</td>
+                    <td>80</td>
+                    <td>40</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        116
+                        <br>
+                        <img src ="./img/front/116.png">
+                        <img src ="./img/back/116.png">
+                    </td>
+                    <td>Horsea</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>295</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>25</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        117
+                        <br>
+                        <img src ="./img/front/117.png">
+                        <img src ="./img/back/117.png">
+                    </td>
+                    <td>Seadra</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>440</td>
+                    <td>55</td>
+                    <td>65</td>
+                    <td>95</td>
+                    <td>95</td>
+                    <td>45</td>
+                    <td>85</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        118
+                        <br>
+                        <img src ="./img/front/118.png">
+                        <img src ="./img/back/118.png">
+                    </td>
+                    <td>Goldeen</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>320</td>
+                    <td>45</td>
+                    <td>67</td>
+                    <td>60</td>
+                    <td>35</td>
+                    <td>50</td>
+                    <td>63</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        119
+                        <br>
+                        <img src ="./img/front/119.png">
+                        <img src ="./img/back/119.png">
+                    </td>
+                    <td>Seaking</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>450</td>
+                    <td>80</td>
+                    <td>92</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>80</td>
+                    <td>68</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        120
+                        <br>
+                        <img src ="./img/front/120.png">
+                        <img src ="./img/back/120.png">
+                    </td>
+                    <td>Staryu</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>340</td>
+                    <td>30</td>
+                    <td>45</td>
+                    <td>55</td>
+                    <td>70</td>
+                    <td>55</td>
+                    <td>85</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Psychic1">
+                    <td>
+                        121
+                        <br>
+                        <img src ="./img/front/121.png">
+                        <img src ="./img/back/121.png">
+                    </td>
+                    <td>Starmie</td>
+                    <td>Water</td>
+                    <td>Psychic</td>
+                    <td>520</td>
+                    <td>60</td>
+                    <td>75</td>
+                    <td>85</td>
+                    <td>100</td>
+                    <td>85</td>
+                    <td>115</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Psychic Fairy1">
+                    <td>
+                        122
+                        <br>
+                        <img src ="./img/front/122.png">
+                        <img src ="./img/back/122.png">
+                    </td>
+                    <td>Mr. Mime</td>
+                    <td>Psychic</td>
+                    <td>Fairy</td>
+                    <td>460</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>65</td>
+                    <td>100</td>
+                    <td>120</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Flying1">
+                    <td>
+                        123
+                        <br>
+                        <img src ="./img/front/123.png">
+                        <img src ="./img/back/123.png">
+                    </td>
+                    <td>Scyther</td>
+                    <td>Bug</td>
+                    <td>Flying</td>
+                    <td>500</td>
+                    <td>70</td>
+                    <td>110</td>
+                    <td>80</td>
+                    <td>55</td>
+                    <td>80</td>
+                    <td>105</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ice Psychic1">
+                    <td>
+                        124
+                        <br>
+                        <img src ="./img/front/124.png">
+                        <img src ="./img/back/124.png">
+                    </td>
+                    <td>Jynx</td>
+                    <td>Ice</td>
+                    <td>Psychic</td>
+                    <td>455</td>
+                    <td>65</td>
+                    <td>50</td>
+                    <td>35</td>
+                    <td>115</td>
+                    <td>95</td>
+                    <td>95</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Electric1">
+                    <td>
+                        125
+                        <br>
+                        <img src ="./img/front/125.png">
+                        <img src ="./img/back/125.png">
+                    </td>
+                    <td>Electabuzz</td>
+                    <td>Electric</td>
+                    <td>N/A</td>
+                    <td>490</td>
+                    <td>65</td>
+                    <td>83</td>
+                    <td>57</td>
+                    <td>95</td>
+                    <td>85</td>
+                    <td>105</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        126
+                        <br>
+                        <img src ="./img/front/126.png">
+                        <img src ="./img/back/126.png">
+                    </td>
+                    <td>Magmar</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>495</td>
+                    <td>65</td>
+                    <td>95</td>
+                    <td>57</td>
+                    <td>100</td>
+                    <td>85</td>
+                    <td>93</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Bug Bug1">
+                    <td>
+                        127
+                        <br>
+                        <img src ="./img/front/127.png">
+                        <img src ="./img/back/127.png">
+                    </td>
+                    <td>Pinsir</td>
+                    <td>Bug</td>
+                    <td>N/A</td>
+                    <td>500</td>
+                    <td>65</td>
+                    <td>125</td>
+                    <td>100</td>
+                    <td>55</td>
+                    <td>70</td>
+                    <td>85</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        128
+                        <br>
+                        <img src ="./img/front/128.png">
+                        <img src ="./img/back/128.png">
+                    </td>
+                    <td>Tauros</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>490</td>
+                    <td>75</td>
+                    <td>100</td>
+                    <td>95</td>
+                    <td>40</td>
+                    <td>70</td>
+                    <td>110</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        129
+                        <br>
+                        <img src ="./img/front/129.png">
+                        <img src ="./img/back/129.png">
+                    </td>
+                    <td>Magikarp</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>200</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>55</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>80</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Flying1">
+                    <td>
+                        130
+                        <br>
+                        <img src ="./img/front/130.png">
+                        <img src ="./img/back/130.png">
+                    </td>
+                    <td>Gyarados</td>
+                    <td>Water</td>
+                    <td>Flying</td>
+                    <td>540</td>
+                    <td>95</td>
+                    <td>125</td>
+                    <td>79</td>
+                    <td>60</td>
+                    <td>100</td>
+                    <td>81</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Ice1">
+                    <td>
+                        131
+                        <br>
+                        <img src ="./img/front/131.png">
+                        <img src ="./img/back/131.png">
+                    </td>
+                    <td>Lapras</td>
+                    <td>Water</td>
+                    <td>Ice</td>
+                    <td>535</td>
+                    <td>130</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>95</td>
+                    <td>60</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        132
+                        <br>
+                        <img src ="./img/front/132.png">
+                        <img src ="./img/back/132.png">
+                    </td>
+                    <td>Ditto</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>288</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        133
+                        <br>
+                        <img src ="./img/front/133.png">
+                        <img src ="./img/back/133.png">
+                    </td>
+                    <td>Eevee</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>325</td>
+                    <td>55</td>
+                    <td>55</td>
+                    <td>50</td>
+                    <td>45</td>
+                    <td>65</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Water Water1">
+                    <td>
+                        134
+                        <br>
+                        <img src ="./img/front/134.png">
+                        <img src ="./img/back/134.png">
+                    </td>
+                    <td>Vaporeon</td>
+                    <td>Water</td>
+                    <td>N/A</td>
+                    <td>525</td>
+                    <td>130</td>
+                    <td>65</td>
+                    <td>60</td>
+                    <td>110</td>
+                    <td>95</td>
+                    <td>65</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Electric Electric1">
+                    <td>
+                        135
+                        <br>
+                        <img src ="./img/front/135.png">
+                        <img src ="./img/back/135.png">
+                    </td>
+                    <td>Jolteon</td>
+                    <td>Electric</td>
+                    <td>N/A</td>
+                    <td>525</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>60</td>
+                    <td>110</td>
+                    <td>95</td>
+                    <td>130</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Fire Fire1">
+                    <td>
+                        136
+                        <br>
+                        <img src ="./img/front/136.png">
+                        <img src ="./img/back/136.png">
+                    </td>
+                    <td>Flareon</td>
+                    <td>Fire</td>
+                    <td>N/A</td>
+                    <td>525</td>
+                    <td>65</td>
+                    <td>130</td>
+                    <td>60</td>
+                    <td>95</td>
+                    <td>110</td>
+                    <td>65</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        137
+                        <br>
+                        <img src ="./img/front/137.png">
+                        <img src ="./img/back/137.png">
+                    </td>
+                    <td>Porygon</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>395</td>
+                    <td>65</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>85</td>
+                    <td>75</td>
+                    <td>40</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Water1">
+                    <td>
+                        138
+                        <br>
+                        <img src ="./img/front/138.png">
+                        <img src ="./img/back/138.png">
+                    </td>
+                    <td>Omanyte</td>
+                    <td>Rock</td>
+                    <td>Water</td>
+                    <td>355</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>100</td>
+                    <td>90</td>
+                    <td>55</td>
+                    <td>35</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Water1">
+                    <td>
+                        139
+                        <br>
+                        <img src ="./img/front/139.png">
+                        <img src ="./img/back/139.png">
+                    </td>
+                    <td>Omastar</td>
+                    <td>Rock</td>
+                    <td>Water</td>
+                    <td>495</td>
+                    <td>70</td>
+                    <td>60</td>
+                    <td>125</td>
+                    <td>115</td>
+                    <td>70</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Water1">
+                    <td>
+                        140
+                        <br>
+                        <img src ="./img/front/140.png">
+                        <img src ="./img/back/140.png">
+                    </td>
+                    <td>Kabuto</td>
+                    <td>Rock</td>
+                    <td>Water</td>
+                    <td>355</td>
+                    <td>30</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>55</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Water1">
+                    <td>
+                        141
+                        <br>
+                        <img src ="./img/front/141.png">
+                        <img src ="./img/back/141.png">
+                    </td>
+                    <td>Kabutops</td>
+                    <td>Rock</td>
+                    <td>Water</td>
+                    <td>495</td>
+                    <td>60</td>
+                    <td>115</td>
+                    <td>105</td>
+                    <td>65</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Rock Flying1">
+                    <td>
+                        142
+                        <br>
+                        <img src ="./img/front/142.png">
+                        <img src ="./img/back/142.png">
+                    </td>
+                    <td>Aerodactyl</td>
+                    <td>Rock</td>
+                    <td>Flying</td>
+                    <td>515</td>
+                    <td>80</td>
+                    <td>105</td>
+                    <td>65</td>
+                    <td>60</td>
+                    <td>75</td>
+                    <td>130</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Normal Normal1">
+                    <td>
+                        143
+                        <br>
+                        <img src ="./img/front/143.png">
+                        <img src ="./img/back/143.png">
+                    </td>
+                    <td>Snorlax</td>
+                    <td>Normal</td>
+                    <td>N/A</td>
+                    <td>540</td>
+                    <td>160</td>
+                    <td>110</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>110</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Ice Flying1 Legendary">
+                    <td>
+                        144
+                        <br>
+                        <img src ="./img/front/144.png">
+                        <img src ="./img/back/144.png">
+                    </td>
+                    <td>Articuno</td>
+                    <td>Ice</td>
+                    <td>Flying</td>
+                    <td>580</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>100</td>
+                    <td>95</td>
+                    <td>125</td>
+                    <td>85</td>
+                    <td>1</td>
+                    <td>True</td>
+                </tr>
+                <tr class = "Electric Flying1 Legendary">
+                    <td>
+                        145
+                        <br>
+                        <img src ="./img/front/145.png">
+                        <img src ="./img/back/145.png">
+                    </td>
+                    <td>Zapdos</td>
+                    <td>Electric</td>
+                    <td>Flying</td>
+                    <td>580</td>
+                    <td>90</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>125</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>True</td>
+                </tr>
+                <tr class = "Fire Flying1 Legendary">
+                    <td>
+                        146
+                        <br>
+                        <img src ="./img/front/146.png">
+                        <img src ="./img/back/146.png">
+                    </td>
+                    <td>Moltres</td>
+                    <td>Fire</td>
+                    <td>Flying</td>
+                    <td>580</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>90</td>
+                    <td>125</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>1</td>
+                    <td>True</td>
+                </tr>
+                <tr class = "Dragon Dragon1">
+                    <td>
+                        147
+                        <br>
+                        <img src ="./img/front/147.png">
+                        <img src ="./img/back/147.png">
+                    </td>
+                    <td>Dratini</td>
+                    <td>Dragon</td>
+                    <td>N/A</td>
+                    <td>300</td>
+                    <td>41</td>
+                    <td>64</td>
+                    <td>45</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Dragon Dragon1">
+                    <td>
+                        148
+                        <br>
+                        <img src ="./img/front/148.png">
+                        <img src ="./img/back/148.png">
+                    </td>
+                    <td>Dragonair</td>
+                    <td>Dragon</td>
+                    <td>N/A</td>
+                    <td>420</td>
+                    <td>61</td>
+                    <td>84</td>
+                    <td>65</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Dragon Flying1">
+                    <td>
+                        149
+                        <br>
+                        <img src ="./img/front/149.png">
+                        <img src ="./img/back/149.png">
+                    </td>
+                    <td>Dragonite</td>
+                    <td>Dragon</td>
+                    <td>Flying</td>
+                    <td>600</td>
+                    <td>91</td>
+                    <td>134</td>
+                    <td>95</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>80</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+                <tr class = "Psychic Psychic1 Legendary">
+                    <td>
+                        150
+                        <br>
+                        <img src ="./img/front/150.png">
+                        <img src ="./img/back/150.png">
+                    </td>
+                    <td>Mewtwo</td>
+                    <td>Psychic</td>
+                    <td>N/A</td>
+                    <td>680</td>
+                    <td>106</td>
+                    <td>110</td>
+                    <td>90</td>
+                    <td>154</td>
+                    <td>90</td>
+                    <td>130</td>
+                    <td>1</td>
+                    <td>True</td>
+                </tr>
+                <tr class = "Psychic Psychic1">
+                    <td>
+                        151
+                        <br>
+                        <img src ="./img/front/151.png">
+                        <img src ="./img/back/151.png">
+                    </td>
+                    <td>Mew</td>
+                    <td>Psychic</td>
+                    <td>N/A</td>
+                    <td>600</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>False</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
