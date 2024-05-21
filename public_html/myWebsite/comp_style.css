@@ -1,0 +1,89 @@
+body {
+  background-image: url('backgroundgraph.jpg');
+  margin-left: 300px;
+  font-family: 'Trebuchet MS'
+      }
+
+h1 {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  background-color: #DDABAB;
+  border-style: dotted;
+  border-color: white;
+  padding: 5px;
+}
+
+h2 {
+  background-color: #BD8F8F;
+  border-style: dotted;
+  border-color: white;
+  position: sticky;
+  top: 0px;
+}
+
+/* Side Navigation Bar */
+.sidenavbar {
+  height: 100%; 
+  width: 250px;
+  position: fixed;
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #BFBCBC;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Side Navigation Bar Link styling*/
+.sidenavbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #717171;
+  display: block;
+}
+
+.sidenavbar a:hover {
+  color: #BD8F8F;
+}
+
+/* Styling for images on Clothing page*/
+#stuff {  
+   width: 500px;  
+   height: auto;  
+} 
+
+/* Styling for the english meaning for a sentence*/
+#sub {
+   font-style: italic;
+}
+
+/* Styling for clothes vocab */
+#clotheslist {
+   text-align: center;
+   list-style-type: none;
+}
+
+/* Styling for navbar on Vocab pages */
+.subnavbar {
+  background-color: #9E9C9C;
+  overflow: hidden;
+  position: sticky;
+  top: 35px;
+  margin-top: 10px
+}
+
+/* Styling for links of navbar on Vocab pages */
+.subnavbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline dotted white;
+  font-size: 17px;
+}
+
+/* Styling for links of navbar on Vocab pages when mouse hovers over them */
+.subnavbar a:hover {
+  background-color: #ddd;
+  color: black;
+}

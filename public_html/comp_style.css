@@ -1,0 +1,17 @@
+body {
+  background-image: url('backgroundgraph.jpg');
+  margin-left: 300px;
+      }
+
+h1 {
+  font-family: 'Courier New';
+  font-weight: bold;
+  background-color: #DDABAB;
+  border-style: dotted;
+  border-color: white;
+}
+
+h2 {
+  background-color: #BD8F8F;
+}
+

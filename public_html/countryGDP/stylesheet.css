@@ -1,0 +1,101 @@
+
+/* navbar Styling */
+    .navbar {
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -48px
+        }
+    .navbar li {
+        height: auto;
+        width: 20%;
+        float: left;
+        text-align: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: #9e9c9c;
+        text-decoration: dotted #E4CA67;
+        }
+    .navbar a {
+        padding: 20px 0;
+        border-left: 3px dotted #E4CA67;
+        text-decoration: none;
+        color: black;
+        display: block;
+        }
+     .navbar li:hover, a:hover {
+        background-color: #bfbcbc;
+        }
+     .navbar li ul {
+        display: none;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+        }
+     .navbar li:hover ul {
+        display: block;
+        position: absolute;
+        }
+     .navbar li ul li {
+        background-color: #bfbcbc;
+        }
+     .navbar li ul li a {
+        border-left: 1px solid #bfbcbc;
+        border-right: 1px solid #bfbcbc;
+        border-top: 1px solid #c9d4d8;
+        border-bottom: 1px solid #bfbcbc;
+        }
+    .navbar li ul li a:hover {
+        background-color: #E4CA67;
+        }
+        
+/* Body Styling */
+    h1 {
+        text-align: center;
+        background-color: #008000;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white;
+        border-style: dotted;
+        border-width: 10px;
+        border-color: #E4CA67;
+        text-decoration: underline dotted white
+        margin-top: 10px
+         }
+    body {
+        background-image: url("./Dollars.JPG");
+        margin-top: 40px
+        background-color: #ffeeed;
+        }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 40px;
+        }
+    p{
+        color: white;
+        font-size: 24px;
+        font-weight: 4px;
+        border: 5px solid Green;
+        background: Gray;
+        padding: 15px;
+        text-align: center;
+        }
+    .means{
+        color: white;
+        font-size: 18px;
+        font-weight: 4px;
+        border: 5px solid Green;
+        background: Black;
+        padding: 15px;
+        text-align: center;
+        }
+    .meanul {
+        list-style:none;
+        padding-left:0;
+        }
+            
